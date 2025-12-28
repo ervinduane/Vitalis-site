@@ -16,14 +16,19 @@
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             margin: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             text-align: center;
         }
         .container {
             padding: 20px;
             max-width: 600px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         h1 {
             font-size: 3rem;
@@ -61,6 +66,12 @@
             text-transform: uppercase;
             letter-spacing: 2px;
         }
+        footer {
+            padding: 40px 20px;
+            font-size: 12px;
+            color: #444;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -69,15 +80,16 @@
         <h1>VITALIS</h1>
         <p>Your AI-powered bridge to metabolic longevity. Syncing Oura, Whoop, and CGM data into one actionable intelligence engine.</p>
         
-        <a href="https://buy.stripe.com/abc123xyz"class="cta-button">Join Founder's Circle</a>" class="cta-button">Join Founder’s Circle — $99</a>
+        <a href="https://buy.stripe.com/abc123xyz" class="cta-button">Join Founder’s Circle — $99</a>
         
         <span class="founder-tag">Limited to First 50 Members</span>
     </div>
 
-</body>
-</html><footer style="text-align: center; padding: 20px; font-size: 12px;">
-    <p>© 2025 VitalisSync. All rights reserved.</p>
-    <p>Contact: hello@vitalissync.com</p>
-    <p>Refund Policy: Founding memberships are non-refundable as they grant immediate lifetime access.</p>
-</footer>
+    <footer>
+        <p>© 2025 VitalisSync. All rights reserved.</p>
+        <p>Contact: hello@vitalissync.com</p>
+        <p>Refund Policy: Founding memberships are non-refundable as they grant immediate lifetime access.</p>
+    </footer>
 
+</body>
+</html>
